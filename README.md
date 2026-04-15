@@ -10,6 +10,8 @@ A multi-agent AI system built on Claude that covers the **full consulting lifecy
 
 Every output is **leadership-ready by default**: no hedging without a clear position, no analysis without a recommendation, no jargon without definition.
 
+See examples/ for real output samples from each skill.
+
 ---
 
 ## The 11 Skills
@@ -206,8 +208,12 @@ senior-consulting-intelligence-system/
 │   ├── 09_BCB.md               ← Business Case Builder
 │   └── 10_IMRA.md              ← Institutional Memory Reconstruction Agent
 │
-└── chains/
-    └── CHAINS.md               ← Complete chain library with 15+ sequences
+├── chains/
+│   ├─── CHAINS.md               ← Complete chain library with 15+ sequences
+├── CONTRIBUTING.md         ← How to contribute
+├── LICENSE                 ← MIT License
+├── examples/
+│   └── EXAMPLE_OUTPUTS.md  ← Real output examples per skill
 ```
 
 ---
